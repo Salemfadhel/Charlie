@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>CharlieSwap</title>
+</head>
+<body>
+    <header>
+        <div class="logo">CharlieSwap</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Trade</a></li>
+                <li><a href="#">Liquidity</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="trade-section">
+            <h2>Trade Your Tokens</h2>
+            <form>
+                <label for="from-token">From:</label>
+                <select id="from-token">
+                    <option value="chr">CHR</option>
+                    <option value="pol">POL</option>
+                </select>
+                <input type="number" placeholder="Amount" required>
+                
+                <label for="to-token">To:</label>
+                <select id="to-token">
+                    <option value="pol">POL</option>
+                    <option value="chr">CHR</option>
+                </select>
+                <input type="number" placeholder="Amount" required>
+                
+                <button type="submit">Swap</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CharlieSwap. All rights reserved.</p>
+    </footer>
+</body>
+</html>
